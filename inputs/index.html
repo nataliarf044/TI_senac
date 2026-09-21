@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTS</title>
+   
+</head>
+<body>
+     <style>
+        #imgsend{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <form action="">
+        <label for="nome">Nome do usuário</label>
+        <input type="text" id="nome" class="nome">
+
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" class="senha">
+
+        <br><br>
+        <label for="cpf">CPF</label>
+        <input type="number" id="cpf" class="cpf">
+
+        <br><br>
+        <label for="datanasc">Data de Nascimento</label>
+        <input type="date" id="datanasc" class="datanasc">
+
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" class="email">
+
+        <br><br>
+        <label for="cor">Cor do veículo</label>
+        <input type="color" id="cor" class="cor">
+
+        <br><br>
+        <label for="week">Semana de Referência</label>
+        <input type="week" id="week" class="week">
+
+        <br></br>
+        <label for="vol">Volume</label>
+        <input type="range"  id="vol" class="vol">
+
+        <br></br>
+        <label for="masc">Masculino</label>
+        <input type="radio"  id="masc" name="gen" value="masculino">
+
+        <br></br>
+        <label for="fem">Feminino</label>
+        <input type="radio"  id="fem" name="gen" value="feminino">
+
+        <br></br>
+        <label for="comida">Arroz</label>
+        <input type="checkbox"  id="arroz" name="comida" value="arroz">
+
+        <br></br>
+        <label for="comida">Feijão</label>
+        <input type="checkbox"  id="feijao" name="comida" value="feijao">
+
+        <br></br>
+        <label for="arquivo">Escolha um arquivo nos formatos: .jpg, .png, .pdf</label>
+        <input type="file"  id="" name="arquivo" accept=".jpg, .png, .pdf">
+
+        <br></br>
+        <label for="url">Link do site</label>
+        <input type="url"  id="url" name="site">
+
+        <br></br>
+        <label for="imgsend">Selecione sua imagem</label>
+        <input type="image" src="/img/simb.jpg" id="imgsend" name="imgsend">
+
+        <br></br>
+
+        <label for="cidades">Selecione uma cidade</label>
+        <select name="cidades" id="">
+            <option value="">Montes Claros</option>
+            <option value="">Janaúba</option>
+            <option value="">Pirapora</option>
+            <option value="">Belo Horizonte</option>
+        </select>
+
+        <br>
+        <label for="msg">Digite sua mensagem</label></br>
+        <textarea name="msg"  id="" rows="5" cols="40" placeholder="Digite sua mensagem"></textarea>
+        
+        
+        <input type="button" value="Acionar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar campos">
+       
+    </form>
+</body>
+</html>
